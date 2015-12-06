@@ -17,6 +17,7 @@ h2{
 
 a{
   display: inline;
+  color: #32221a;
 }
 
 .header{
@@ -57,10 +58,16 @@ a{
   font-variant: small-caps;
   text-decoration: underline;
 }
+
+.name-index{
+  margin-bottom: 3px;
+}
+
 .main{
   top:500px;
   width: 100%;
 }
+
 .text_container{
   border-top: 1px solid #543963;
   position: relative;
@@ -90,18 +97,26 @@ a{
   background-color:#a584ba;
   border-color: #a584ba;
 }
+.bottom:active{
+  color:#e6e6e6;
+
+}
 
 .success{
-  /*margin-top: 60px;*/
-  margin-right: 5%;
+  margin-left: 6%;
 }
 
 .persons{
-  margin-right: 5%;
+  margin-left: 0;
+}
+
+.courses{
+  float: right;
+  margin-right: 6%;
 }
 
 .students{
-  margin-right: 5%;
+  float: right;
 }
 
 .photo1{
@@ -109,7 +124,6 @@ a{
 }
 
 .box{
-  /*display: block;*/
   border-bottom: 1px solid #543963;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -139,8 +153,6 @@ a{
   width:10%;
   height: auto;
   padding: 10px;
-  /*border: 2px solid black;*/
-  /*z-index: -1;*/
 }
 
 .photo-left{
